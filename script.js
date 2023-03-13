@@ -12,18 +12,18 @@ let secondCard = false;
 
 //Items array
 const items = [
-  { name: "bee", image: "bee.png" },
-  { name: "crocodile", image: "crocodile.png" },
-  { name: "macaw", image: "macaw.png" },
-  { name: "gorilla", image: "gorilla.png" },
-  { name: "tiger", image: "tiger.png" },
-  { name: "monkey", image: "monkey.png" },
-  { name: "chameleon", image: "chameleon.png" },
-  { name: "piranha", image: "piranha.png" },
-  { name: "anaconda", image: "anaconda.png" },
-  { name: "sloth", image: "sloth.png" },
-  { name: "cockatoo", image: "cockatoo.png" },
-  { name: "toucan", image: "toucan.png" },
+  { name: "Moblin", image: "Moblin.png" },
+  { name: "Darknut", image: "Darknut.png" },
+  { name: "GoriyaR", image: "GoriyaR.png" },
+  { name: "GoriyaB", image: "GoriyaB.png" },
+  { name: "Keese", image: "Keese.png" },
+  { name: "OctorokR", image: "OctorokR.png" },
+  { name: "OctorokB", image: "OctorokB.png" },
+  { name: "WizzrobeR", image: "WizzrobeR.png" },
+  { name: "WizzrobeB", image: "WizzrobeB.png" },
+  { name: "Peahat", image: "Peahat.png" },
+  { name: "LynelR", image: "LynelR.png" },
+  { name: "LynelB", image: "LynelB.png" },
 ];
 
 //Initial Time
@@ -85,7 +85,7 @@ const matrixGenerator = (cardValues, size = 4) => {
       */
     gameContainer.innerHTML += `
      <div class="card-container" data-card-value="${cardValues[i].name}">
-        <div class="card-before">?</div>
+        <div class="card-before">Zelda</div>
         <div class="card-after">
         <img src="${cardValues[i].image}" class="image"/></div>
      </div>
